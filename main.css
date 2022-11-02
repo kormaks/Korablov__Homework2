@@ -1,0 +1,144 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+.header{
+    padding: 53px 0 ;
+}
+.header__li{
+    display: inline-block;
+}
+.header__li:not(:last-of-type){
+    margin-right: 47px;
+}
+.header__link{
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 18px;
+    color: #000000;
+}
+.conteiner{
+    max-width: 1300px;
+    margin: 0 auto;
+} 
+.background{
+    background-image: url(../img/background__img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 138px 0 180px;
+}
+.background__title{
+    font-weight: 700;
+    font-size: 72px;
+    color: #FFFFFF;
+    margin-bottom: 14px;
+}
+.backgound__button{
+    width: 420px;
+    height: 70px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 36px;
+    color: #162C38;
+    border: none;
+}
+.description{
+    background-color: rgba(26, 110, 136, 0.71);
+    padding: 130px 0 134px;
+}
+.description__text{
+    max-width: 726px;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 49px;
+    color: #FFFFFF;
+    margin: 0 auto;
+}
+.width{
+    max-width: 1440px;
+}
+.info{
+    padding: 221px 0 729px;
+}
+.info__text{
+    max-width: 700px;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    color: #000000;
+    margin: 0 auto 216px;
+}
+.first::before{
+    content: "";
+    width: 178px;
+    height: 121px;
+    background: #BFDEFB;
+    left: 0;
+    position: absolute;
+    margin-top: -121px;
+}
+.first::after{
+    content: "";
+    width: 178px;
+    height: 121px;
+    background: #BFDEFB;
+    left: 0;
+    position: absolute;
+    margin-top: -79px;
+}
+.second{
+    max-width: 740px;
+    margin-bottom: 123px;
+}
+.second::before{
+    content: "";
+    width: 58px;
+    height: 58px;
+    background: #5C98AB;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: -58px;
+    margin-left: -58px;
+}
+.second::after{
+    content: "";
+    width: 120px;
+    height: 120px;
+    background: #BFDEFB;
+    border-radius: 50%;
+    position: absolute;
+    margin-left: 32px;
+}
+.info__input{
+    width: 647px;
+    height: 96px;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 49px;
+    color: #000000;
+    padding-left: 31px;
+}
+.info__input__wrapper:nth-child(1)::before{
+    content:"Name";
+    position: absolute;
+    padding: 14px 0 3px 31px;
+    font-weight: 300;
+    font-size: 14px;
+    color: #000000;
+}
+.info__input__wrapper::before{
+    content:"Email";
+    position: absolute;
+    padding: 14px 0 3px 31px;
+    font-weight: 300;
+    font-size: 14px;
+    color: #000000;
+}
+.info__input__wrapper + .info__input__wrapper{
+    margin-top: 41px;
+}
+
+
