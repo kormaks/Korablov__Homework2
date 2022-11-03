@@ -44,6 +44,9 @@
     </p>
   </section>
   <section class="conteiner width info">
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
     <p class="info__text first">
       Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde aliquid quibusdam eum, velit incidunt est natus? Tempora tenetur veniam aliquam cupiditate ipsa ad, inventore sunt nisi ab fuga, debitis corrupti?
     </p>
@@ -52,14 +55,15 @@
     </p>
     <form>
       <div class="info__input__wrapper">
-        <input type="text" class="info__input" placeholder="Name" value="Lena">
+        <input type="text" class="info__input" onfocus="if (value == 'Lena') {value = ''}" onblur="if (value == '') {value = 'Lena'}" placeholder="Name" value="Lena">
       </div>
       <div class="info__input__wrapper">
-        <input type="email" class="info__input" placeholder="Email" value="email@gmail.com">
+        <input type="email" class="info__input" placeholder="Email" value="email@gmail.com" onfocus="if (value == 'email@gmail.com') {value = ''}" onblur="if (value == '') {value = 'email@gmail.com'}">
       </div>
       <div class="info__input__wrapper">
-        <input type="email" class="info__input" placeholder="Email" value="lena@gmail.com">
+        <input type="email" class="info__input" placeholder="Email" value="lena@gmail.com" onfocus="if (value == 'lena@gmail.com') {value = ''}" onblur="if (value == '') {value = 'lena@gmail.com'}">
       </div>
+      <button class="info__btn">FREE PRE-ORDER</button>
     </form>
   </section>
 </body>
